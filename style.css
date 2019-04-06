@@ -280,7 +280,7 @@ header {
     background-color: #fff;
     height: 9em;  
     width: 100%;
-    float: both;
+    clear: both;
         
 }
 
@@ -548,9 +548,9 @@ footer {
 }
 
 .container {
-    margin: 2em;
+    margin: 3em;
+    padding: 3em;
     display: inline-block;
-    
     }
     
 .logo-green {
