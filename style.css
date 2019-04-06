@@ -1,0 +1,655 @@
+@charset "UTF-8";
+@import url ('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url ('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+    box-sizing: border-box;
+    transition: all ease-in-out 250ms;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+html {
+    font-family: "montserrat", sans-serif;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.nav {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+}
+
+.menu {
+    margin: 0 30px 0 0;
+}
+.menu a {
+    clear: right;
+    text-decoration: none;
+    margin: 0 10px;
+    line-height: 70px;
+}
+
+
+.nav {
+    margin: .5em;
+    padding: 0;
+    list-style: none;
+}
+
+.nav {
+    display: inline-block;
+    margin: .8em;  
+    padding-top: .05em;
+    position: relative;
+    background-color: #;
+}
+
+.nav a {
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: .5em;
+    color: #000;
+}
+
+span {
+    color: #54D17A;
+}
+
+.menu a:hover,
+.menu a:focus {
+    font-weight: bolder;
+    color: #606163       
+}
+
+.menu a::before {
+    content: '';
+    display: block;
+    height: .5em;
+    width: 100%;
+    background-color: #2A6A7E;
+    position: absolute;
+    top: 3em;
+    width: 0%;
+    transition: all ease-in-out 300ms; 
+}
+
+.nav a:hover::before {
+     width: 100%;
+}
+
+
+/*
+    margin-left: 70px;
+    padding-top: 25px;
+
+
+.menu {
+
+}
+
+*/
+
+
+
+
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+
+#toggle {
+    display: none;
+}
+
+
+.container {
+    max-width: 70em;
+    margin: 0 auto; 
+    font-family: serif;
+    display: inline-block;
+    align-items: center;
+}
+
+.clearfix:: after,
+section:: after,
+footer:: after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* media qeuries
+========================*/
+
+@media only screen and (max-width: 60rem) {
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+}
+
+
+/* typography h1
+========================*/
+
+
+h1 {
+    padding: .5em;
+    padding-left: 3em;
+    text-align: left;
+}
+
+h1 span {
+    color: #000;
+    font-family:'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: #606163;
+    text-align: center;
+}
+
+.title {
+    font-family: "playfair display", serif;
+    font-size: 2.6rem;
+    font-weight: 300;
+    display: block;
+    margin-bottom: 1.5em;
+}
+
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: #606163;
+}
+
+p {
+    font-family: "playfair display", serif;
+    padding: .5em;
+    color: #606163;
+    font-size: 1rem;
+    font-weight: 100;
+    display: block;
+    margin-bottom: 1em;   
+}
+
+
+/* media qeuries
+========================*/
+
+@media only screen and (min-width: 60rem) {
+    .title {
+    font-size: 4rem;
+    }
+}
+
+/* buttons
+========================*/
+.button {
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 2px;
+    border-style: solid;
+    padding: .5em 1.75em;
+}
+
+
+.button-accent {
+    color:#000;
+    border-color: #000;
+}
+
+.button-accent:hover,
+.button-accent:focus {
+    background: #000;
+    color: #FFF;
+}
+
+
+/* media qeuries
+========================*/
+
+@media only screen and (min-width: 60rem) {
+    .button {
+    font-size: 2rem;
+     }
+    }
+
+/* header
+========================*/
+
+.top-logo {
+    float: clear;
+}
+
+header {
+    left: 0;
+    right: 0;
+    margin: 2em; 
+    margin-top: 1em;
+    margin-bottom: 2.5em;
+    background-color: #fff;
+    height: 9em;  
+    width: 100%;
+    float: both;
+        
+}
+
+
+
+
+
+
+
+/*
+
+.nav ul {
+    margin: .5em;
+    padding: 0;
+    list-style: none;
+}
+
+*/
+
+/* media qeuries
+========================*/
+
+@media only screen and  (min-width: 60rem) {
+    .top-logo {
+        float: left;
+        width: 8em;
+    }
+    .nav {
+        float: right;
+        font-size: 1rem;
+        
+    }
+    header {
+        height: 80px;
+    }
+}
+
+@media only screen and  (min-width: 30rem) {
+    .logo {
+        float: left;
+        align-content: center;
+        width: 8em;
+    }
+    .nav {
+        float: right;
+        font-size:2rem;
+        
+    }
+    header {
+        height: 5em;
+    }
+}
+
+/*   */
+
+
+/* hero
+========================*/
+
+.home-hero {
+    background-color: #9BCCBF;
+    background-size: cover;
+    background-position: center;
+    padding: 10em 0;
+    font-family: 'playfair display', serif;
+    font-weight: 100;
+}
+   
+    
+/* media qeuries
+========================*/
+
+@media only screen and  (min-width: 60rem) {
+    .home-hero {
+        height: 80vh;
+        padding-top: 10vh;
+     }
+    } 
+/*   */
+
+/*about
+=============================*/
+
+.about-me {
+    background-color: #D7EBE5;   
+}
+
+
+.selfie {
+    height: auto;
+    width: 15rem;
+    border: none;
+    border-radius: 100%;
+}
+
+.about {
+    background-color: #D7EBE5;
+    width: cover;
+    background-position: center;
+    padding: 3em;
+    margin-left: -2.5%;
+    margin-right: -2.5%;
+    display: inline-block;
+}
+
+p span {
+    color: #000;
+    font-family:'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+p {
+    padding: 1em;
+    
+}
+
+/* media qeuries
+========================*/
+
+@media only screen and (min-width: 30rem) {
+    .about {
+        height: 100vh;
+     }
+    
+    p span {
+        font-size: 1.5em;
+        }
+    
+    } 
+
+@media only screen and (min-width: 25rem) {
+    .h2 {
+        font-size: 2rem;
+     }
+    
+    .about h2 {
+        top: .6em;
+        padding: 0 .325em;
+     }
+        
+
+@media only screen and (min-width: 60rem) {
+    .about me{
+        height: 110vh;
+        padding: 3em;
+     }
+    } 
+
+/*   */
+
+
+
+/* testimonials
+========================*/
+
+.testimonials {
+    background-color: #F6FCE4;
+    padding-top: 2em;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-bottom: 3em;
+    width: cover;
+    margin-left: -2.5%;
+    margin-right: -2.5%;
+    color: #606163;
+    clear: both;
+    font-family: 'playfair display', serif;
+}
+
+.testcopy p {
+    font-style: italic;
+}
+
+/* edit the weird border and things out :    
+    outline: 2px solid #00ff66;
+    outline-offset: -3em;
+    position: relative;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+
+========================*/
+
+.testimonials h2 {
+    top: .3em;
+    background: #F6FCE4;
+    padding: 0 .25em;
+}
+
+@media only screen and (min-width: 25rem) {
+    .h1 {
+        font-size: 2rem;
+     }
+    
+    .testimonials h1 {
+        top: .6em;
+        padding: 0 .325em;
+     }
+        
+} 
+
+    
+/* media qeuries
+========================*/    
+    
+@media only screen and (min-width: 60rem) {
+    .h1 {
+        font-size: 2.5rem;
+     }
+    
+    .testimonials h1 {
+        width: 40%;
+        margin-left: -2.5%;
+     }
+        
+} 
+
+/* portfolio
+
+.portfolio {
+    margin: 3em 0;
+}
+
+@media (min-width: 30rem) {
+    .port-item {
+        width: 50%;
+    }  
+}
+
+@media (min-width: 60rem) {
+    .port-item {
+        width: 33.3333333334%;
+    }  
+}
+
+
+========================*/
+
+
+.port-item {
+    float: left;
+}
+
+.portfolio {
+    display: inline-block;
+}
+
+/* footer
+
+========================*/
+/* footer
+
+========================*/
+
+footer {
+    background-color: #606163;
+    color: #B0D4B2;
+    text-align: left;
+    padding: 5em 0;
+    height: 40vh;
+
+}
+
+.container {
+    margin: 2em;
+    display: inline-block;
+    
+    }
+    
+.logo-green {
+    margin: 1em;
+    padding: 1em .5em;
+}
+
+.fb {
+    padding: .3em .1em;
+}
+
+.insta {
+    padding: .3em;
+}
+
+.twit {
+    padding: .3em;
+}
+
+.pint {
+    padding: .3em;
+}
+
+.social {
+    color: #B0D4B2;
+    text-decoration: none;
+    margin: .6em;
+    padding: .5em 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100; 
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.details {
+    color: #B0D4B2;
+    margin: .6em;
+    padding: .9em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100; 
+    font-style: normal;
+    line-height: 1.4em; 
+    font-size: .9em;
+}
+
+
+.details a {
+    color: #B0D4B2;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.port-item { transition: all .2s ease-in-out; }
+.port-item:hover { transform: scale(1.1); }
+
+.selfie { transition: all .2s ease-in-out; }
+.selfie:hover { transform: scale(1.1); }
+
+/* media qeuries
+========================*/
+    
+@media only screen and (min-width: 30rem) {
+    .logo-green {
+        align-content: center;
+        width: 8em;
+    }
+    .details {
+        float: right;
+        align-content: center;
+    }
+    
+    footer {
+        height: auto;
+    }
+}
+
+   
+@media only screen and (min-width: 22rem) {
+    .logo-green {
+        align-content: center;
+        width: 6em;
+    }
+    .details {
+        float: right;
+        align-content: center;
+    }
+    
+    footer {
+        height: auto;
+    }
+}
+/* colours:
+Gray
+#606163
+ 
+Green
+#B0D4B2
+ 
+Blue green
+#9BCCBF
+ 
+Yellow
+#F6FCE4
+ 
+Blue
+#D7EBE5
+ 
+Dark AQUA MARINE
+#2A6A7E */

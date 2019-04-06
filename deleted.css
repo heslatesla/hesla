@@ -1,0 +1,78 @@
+DELETED:
+.menu {
+    text-align: right;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: .8em;
+    color: #000;
+    display: inline-block;
+    height: 7em;
+    position: absolute;
+    float: right;
+    margin: 10em;  
+    padding-top: .05em;
+    background-color: #;
+    margin: 0 30px 0 0;
+}
+
+.menu a:hover,
+.menu a:focus {
+    font-weight: bolder;
+    color: #606163;
+}
+
+.menu a::before {
+    content: '';
+    display: block;
+    height: .5em;
+    width: 100%;
+    background-color: #2A6A7E;
+    position: absolute;
+    top: 3em;
+    width: 0%;
+    transition: all ease-in-out 300ms; 
+}
+
+.menu a:hover::before {
+     width: 100%;
+}
+
+.menu a {
+    text-decoration: none;
+    color: gray;
+    margin: 0 10px;
+    line-height: 4em;
+    position: relative;
+}
+
+span {
+    color: #B0D4B2;
+    font-family: "Montserrat", sans-serif;
+    font-style: bold;
+}
+
+
+.menu {
+    margin: .5em;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+
+.menu a {
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: -.5em;
+    color: #000;
+}
+
+.menu a:hover,
+.menu a:focus {
+    font-weight: bolder;
+    color: #606163;
+}
