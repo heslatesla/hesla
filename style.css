@@ -72,6 +72,11 @@ span {
     color: #606163       
 }
 
+.nav a:hover {
+  border-bottom: .3em solid #2A6A7E;
+}
+
+/*
 .menu a::before {
     content: '';
     display: block;
@@ -83,6 +88,8 @@ span {
     width: 0%;
     transition: all ease-in-out 300ms; 
 }
+
+*/
 
 .nav a:hover::before {
      width: 100%;
