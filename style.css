@@ -63,7 +63,8 @@ img {
 }
 
 span {
-    color: #54D17A;
+    font-weight: 700;
+    color: red;
 }
 
 .menu a:hover,
@@ -178,7 +179,8 @@ h1 {
 h1 span {
     color: #000;
     font-family:'Montserrat', sans-serif;
-    font-weight: bolder;
+    font-weight: 700;
+    
 }
 
 h2 {
@@ -196,7 +198,8 @@ h2 {
     font-size: 2.6rem;
     font-weight: 300;
     display: block;
-    margin-bottom: 1.5em;
+    margin-top: 0em;
+    margin-bottom: 1em;
 }
 
 
@@ -267,27 +270,32 @@ p {
 /* header
 ========================*/
 
-.top-logo {
-    float: clear;
-}
+
 
 header {
+    display: inline-block;
     left: 0;
     right: 0;
-    margin: 2em; 
-    margin-top: 1em;
-    margin-bottom: 2.5em;
     background-color: #fff;
-    height: 9em;  
+    height: 20vh;  
     width: 100%;
     clear: both;
-        
+    border: solid 3px red;
+}
+
+.top-logo {
+    float: clear;
+    padding: 1em;
+    width: 100%;
+    margin-top: 1em;
 }
 
 
+/*
 
-
-
+    margin: 0em; 
+    margin-top: 1em;
+    margin-bottom: 2.5em; /*
 
 
 /*
@@ -297,13 +305,15 @@ header {
     padding: 0;
     list-style: none;
 }
+ {width: 100%;}
+
 
 */
 
-/* media qeuries
+/* media queries
 ========================*/
 
-@media only screen and  (min-width: 60rem) {
+@media only screen and (min-width: 60rem) {
     .top-logo {
         float: left;
         width: 8em;
@@ -314,19 +324,19 @@ header {
         
     }
     header {
-        height: 80px;
+        height: 10em;
     }
 }
 
-@media only screen and  (min-width: 30rem) {
-    .logo {
+@media only screen and (min-width: 30rem) {
+    .top-logo {
         float: left;
         align-content: center;
         width: 8em;
     }
     .nav {
         float: right;
-        font-size:2rem;
+        font-size: 2rem;
         
     }
     header {
@@ -344,9 +354,10 @@ header {
     background-color: #9BCCBF;
     background-size: cover;
     background-position: center;
-    padding: 10em 0;
+    padding: #em;
     font-family: 'playfair display', serif;
     font-weight: 100;
+    border: solid 3px red;
 }
    
     
@@ -356,7 +367,7 @@ header {
 @media only screen and  (min-width: 60rem) {
     .home-hero {
         height: 80vh;
-        padding-top: 10vh;
+        padding-top: 8vh;
      }
     } 
 /*   */
@@ -549,12 +560,12 @@ p {
 
 
 footer {
+    width: 100%;
     background-color: #606163;
     color: #B0D4B2;
     text-align: left;
     padding: 5em 0;
-    height: 40vh;
-
+    height: 30vh;
 }
 
 .container {
