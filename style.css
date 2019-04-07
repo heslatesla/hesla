@@ -361,7 +361,7 @@ header {
 }
    
     
-/* media qeuries
+/* media queries
 ========================*/
 
 @media only screen and  (min-width: 60rem) {
@@ -601,7 +601,7 @@ footer {
     margin: .6em;
     padding: .5em 1em;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 100; 
+    font-weight: 300; 
     font-style: normal;
     text-transform: uppercase;
 }
@@ -630,7 +630,7 @@ footer {
 .selfie { transition: all .2s ease-in-out; }
 .selfie:hover { transform: scale(1.1); }
 
-/* media qeuries
+/* media queries
 ========================*/
     
 @media only screen and (min-width: 30rem) {
