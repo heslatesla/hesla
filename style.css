@@ -678,6 +678,10 @@ footer {
         height: auto;
     }
 }
+    
+    .404 {
+        background-color: #B0D4B2;
+    }
 /* colours:
 Gray
 #606163
