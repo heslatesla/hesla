@@ -512,10 +512,17 @@ p {
         
 } 
 
-/* portfolio *?
+/* portfolio */
 
 .portfolio {
-    margin: 3em 0;
+  display: grid;
+  grid-template-columns: 250em 25em;
+  grid-template-rows: repeat(3, 450px);
+  grid-gap: 20em;
+  margin-top: 2em;
+  justify-items: center;
+  justify-content: space-between;
+    
 }
 
 @media (min-width: 30rem) {
@@ -569,8 +576,8 @@ footer {
 }
 
 .container {
-    margin: 3em;
-    padding: 3em;
+    margin: 2em;
+    padding: 2em;
     display: inline-block;
     }
     
