@@ -566,7 +566,7 @@ p {
 }
 
 @media (min-width: 37rem) {
-	.porti-item {
+	.work1 {
 		width: 50%;
 		float: left;
 	}
@@ -589,14 +589,9 @@ p {
   
     
 
-.work {
-    display: grid;
-    grid: repeat(2, 100px) / repeat(2, 150px); 
-    grid-auto-rows: 50px;
-    grid-auto-flow: column;
-    justify-items: center;
-    justify-content: center;
-    align-items: center;
+.work { 
+    display: flow-root;
+    
     }
 
 
@@ -613,6 +608,18 @@ p {
 }
 
 /*
+    
+    
+.work    {
+    display: grid;
+    grid: repeat(2, 200px) / repeat(2, 250px); 
+    grid-auto-rows: 50px;
+    grid-auto-flow: column;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    }
+
 ========================*/
 
 
