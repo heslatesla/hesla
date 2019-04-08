@@ -170,7 +170,7 @@ footer:: after {
 ========================*/
 .header {
     display: block;
-    height: 10vh;
+    height: 12vh;
     width: 100%;
 }
 
@@ -559,8 +559,48 @@ p {
 
 /* form
 
-========================*/    
- 
+========================*/  
+    
+    
+.contact {
+    display: block;
+    background-color: #2A6A7E;
+    }
+
+form {
+    margin: 1em;
+    padding: 1em;
+    }    
+
+input[type=text] {
+    height: 10vh;
+    width: 50vw;
+    border: 1px solid #FFF;
+    background-color: #2A6A7E;
+}
+    
+input[type=comment] {
+    width: 50vw;
+    border: 1px solid #FFF;
+    background-color: #2A6A7E;
+    height: 15vh;
+}
+    
+input[type=submit] {
+    width: 60%;
+    border: 1px solid ;
+    color: #2A6A7E;
+    background-color: #B0d4b2;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 1em;
+    letter-spacing: 0.1em;
+    height: 2em;
+    
+}
+    
 .banner {
     color: #fff;
     background-color: #2A6A7E;
@@ -569,8 +609,21 @@ p {
     text-align: center;
     }
     
-
+.banner p {
+    color: #FFF;
+    }
     
+.banner span {
+    color: #FFF;
+    }
+
+.form h2 {
+    color: #FFF;
+    } 
+    
+.form h3{
+     color: #FFF;   
+    }
     
 /* footer
 
@@ -699,6 +752,7 @@ footer {
         display: block;
         vertical-align: middle;
     }
+    
 /* colours:
 Gray
 #606163
