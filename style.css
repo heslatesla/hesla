@@ -172,7 +172,6 @@ footer:: after {
 
 h1 {
     padding: .5em;
-    padding-left: 3em;
     text-align: left;
 }
 
@@ -559,11 +558,11 @@ p {
 ========================*/    
  
 .banner {
-    background-color: darkblue;
-    padding: 100px 0;
-    margin-top: 77px;
+    color: #fff;
+    background-color: #2A6A7E;
+    padding: 1em;
+    margin-top: 1em;
     text-align: center;
-        
     }
     
 
