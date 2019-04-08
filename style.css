@@ -17,9 +17,14 @@ html {
     text-align: center;
 }
 
-.header {
+.header-nav {
     height: 12vh;
     border: solid 4px pink;
+    width: 100%;
+}
+
+.logo {
+    float: left;
 }
 
 img {
