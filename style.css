@@ -17,6 +17,11 @@ html {
     text-align: center;
 }
 
+.header {
+    height: 12vh;
+    border: solid 4px pink;
+}
+
 img {
     max-width: 100%;
     height: auto;
