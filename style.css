@@ -566,7 +566,13 @@ p {
 }
 
 @media (min-width: 37rem) {
-	.work1 {
+.porti-item {
+		width: 50%;
+		float: left;
+	}
+    
+    
+    .work1 {
 		width: 50%;
 		float: left;
 	}
