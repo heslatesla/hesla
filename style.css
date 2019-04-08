@@ -168,7 +168,11 @@ footer:: after {
 
 /* typography h1
 ========================*/
-
+.header {
+    display: block;
+    height: 10vh;
+    width: 100%;
+}
 
 h1 {
     padding: .5em;
