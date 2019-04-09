@@ -405,6 +405,9 @@ header {
    
 .cta {
     background-color: #9BCCBF;
+    height: 30em;
+    width: 100%;
+    
 }    
 /* media queries
 ========================*/
