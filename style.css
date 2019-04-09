@@ -415,7 +415,7 @@ header {
 }
    
 .cta {
-    background-color: #9BCCBF;
+    background-color: #747577;
     height: 30em;
     padding-top: 2em;
     padding-left: 5em;
@@ -444,7 +444,8 @@ header {
 =============================*/
 
 .about-me {
-    background-color: #D7EBE5;   
+    background-color: #D7EBE5;
+    padding-bottom: 5em;
 }
 
 
@@ -613,7 +614,7 @@ p {
 }
 
 @media (min-width: 37rem) {
-.porti-item {
+    .porti-item {
 		width: 50%;
 		float: left;
 	}
@@ -718,9 +719,9 @@ input[type=comment] {
     
 input[type=submit] {
     width: 10em;
-    border: 2px solid ;
+    border: 1.5px solid ;
     color: #fff;
-    background-color: #606163;
+    background-color: #747577;
     font-family: "Montserrat", sans-serif;
     font-size: 1.5em;
     font-weight: 700;
