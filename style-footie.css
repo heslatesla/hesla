@@ -1,0 +1,976 @@
+@charset "UTF-8";
+@import url ('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url ('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+    box-sizing: border-box;
+    transition: all ease-in-out 250ms;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+html {
+    font-family: "montserrat", sans-serif;
+    text-align: center;
+}
+
+.header-nav {
+    height: 14vh;
+    width: 100%;
+    background-color: #FFF;
+}
+
+/*     border: solid 4px pink; */
+
+.logo {
+    float: left;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header {
+    display: block;
+    height: 12vh;
+    width: 100%;
+}
+
+.nav {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+}
+
+.menu {
+    margin: 0 30px 0 0;
+}
+
+.menu a {
+    clear: right;
+    text-decoration: none;
+    margin: 0 10px;
+    line-height: 70px;
+}
+
+
+.nav {
+    margin: .5em;
+    padding: 0;
+    list-style: none;
+}
+
+.nav {
+    display: inline-block;
+    margin: .8em;  
+    padding-top: .05em;
+    position: relative;
+    background-color: #;
+}
+
+.nav a {
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: .5em;
+    color: #000;
+}
+
+span {
+    font-weight: 700;
+    color: red;
+}
+
+.menu a:hover,
+.menu a:focus {
+    font-weight: bolder;
+    color: #606163       
+}
+
+.nav a:hover {
+  border-bottom: .3em solid #2A6A7E;
+}
+
+/*
+.menu a::before {
+    content: '';
+    display: block;
+    height: .5em;
+    width: 100%;
+    background-color: #2A6A7E;
+    position: absolute;
+    top: 3em;
+    width: 0%;
+    transition: all ease-in-out 300ms; 
+}
+
+*/
+
+.nav a:hover::before {
+     width: 100%;
+}
+
+
+/*
+    margin-left: 70px;
+    padding-top: 25px;
+
+
+.menu {
+
+}
+
+*/
+
+
+
+
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+
+#toggle {
+    display: none;
+}
+
+
+.container {
+    width: 95%;
+    max-width: 70em;
+    margin: 0 auto; 
+    font-family: serif;
+    display: inline-block;
+    align-items: center;
+}
+
+.clearfix:: after,
+section:: after,
+footer:: after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* media qeuries
+========================*/
+
+@media only screen and (max-width: 60rem) {
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+}
+
+
+/* typography h1
+========================*/
+
+
+h1 {
+    padding: .5em;
+    text-align: left;
+}
+
+h1 span {
+    color: #000;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 700;
+    
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: #606163;
+    text-align: center;
+}
+
+.title {
+    font-family: "playfair display", serif;
+    font-size: 2.6rem;
+    font-weight: 300;
+    display: block;
+    margin-top: 0em;
+    margin-bottom: 1em;
+}
+
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: #606163;
+}
+
+p {
+    font-family: "playfair display", serif;
+    padding: .5em;
+    color: #606163;
+    font-size: 1rem;
+    font-weight: 100;
+    display: block;
+    margin-bottom: 1em;   
+}
+
+
+/* media qeuries
+========================*/
+
+@media only screen and (min-width: 60rem) {
+    .title {
+    font-size: 4rem;
+    }
+}
+
+/* buttons
+========================*/
+.button {
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 2px;
+    border-style: solid;
+    padding: .5em 1.75em;
+}
+
+
+.button-accent {
+    color:#000;
+    border-color: #000;
+}
+
+.button-accent:hover,
+.button-accent:focus {
+    background: #000;
+    color: #FFF;
+}
+
+.button-small {
+	font-size: .7rem;
+	font-weight: 700;
+}
+
+.button-small:hover,
+.button-small:focus {
+	background: #B0D4B2;
+	color: #000;
+    border: #FFF
+}
+
+.button-dark {
+	color: #232323;
+	border-color: #232323;
+}
+
+.button-dark:hover,
+.button-dark:focus {
+	background: #2A6A7E;
+	color: #B0D4B2;
+    border: #B0D4B2;
+}
+
+
+.button-accent2 {
+    color:#FFF;
+    border-color: #FFF;
+}
+
+.button-accent2:hover,
+.button-accent2:focus {
+    background: #FFF;
+    color: #000;
+}
+
+/* media qeuries
+========================*/
+
+@media only screen and (min-width: 60rem) {
+    .button {
+    font-size: 2rem;
+     }
+    }
+
+/* header
+========================*/
+
+
+
+header {
+    display: inline-block;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    height: 20vh;  
+    width: 100%;
+    clear: both;
+}
+
+.top-logo {
+    float: clear;
+    padding: 1em;
+    width: 100%;
+    margin-top: 1em;
+    z-index: 200;
+}
+
+
+/*
+
+    margin: 0em; 
+    margin-top: 1em;
+    margin-bottom: 2.5em; /*
+    border: solid 3px red;
+
+
+/*
+
+.nav ul {
+    margin: .5em;
+    padding: 0;
+    list-style: none;
+}
+ {width: 100%;}
+
+
+*/
+
+/* media queries
+========================*/
+
+@media only screen and (min-width: 60rem) {
+    .top-logo {
+        float: left;
+        width: 8em;
+    }
+    .nav {
+        float: right;
+        font-size: 1rem;
+        
+    }
+    header {
+        height: 10em;
+    }
+}
+
+@media only screen and (min-width: 30rem) {
+    .top-logo {
+        float: left;
+        align-content: center;
+        width: 8em;
+    }
+    .nav {
+        float: right;
+        font-size: 2rem;
+        
+    }
+    header {
+        height: 5em;
+    }
+}
+
+/*   */
+
+
+/* hero
+========================*/
+
+.home-hero {
+    background-color: #9BCCBF;
+    background-size: cover;
+    background-position: center;
+    padding: #em;
+    font-family: 'playfair display', serif;
+    font-weight: 100;
+}
+   
+.cta {
+    background-color: #747577;
+    height: 30em;
+    padding-top: 2em;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-bottom: 3em;
+    margin-left: -2.5%;
+    margin-right: -3.5%;
+    clear: both;
+    font-family: "playfair display", serif;
+}
+    
+}    
+/* media queries
+========================*/
+
+@media only screen and  (min-width: 60rem) {
+    .home-hero {
+        height: 80vh;
+        padding-top: 8vh;
+     }
+    } 
+
+/*     border: solid 3px red;  */
+
+/*trying to figure out better footer and header
+=============================*/
+.middle {
+    background-color: lightcyan;
+    height: 20em;
+    padding: 5em;
+}
+
+.middle h1 {
+    font-size: 2em;
+    text-align: center;
+    
+}
+/*+++new footer fuckery+++++++++++++++++++++++++++++
+
+
+/* Column system
+=================== */
+
+[class^=col-] {
+	width: 100%;
+	margin-top: 1em;
+}
+
+[class^=col-]:first-child {
+	margin-top: 0;
+}
+
+.col-1 {
+	width: 33.333334%;
+	float: left;
+}
+
+
+@media (min-width: 40rem) {
+
+	[class^=col-] {
+		float: left;
+		padding: 0 .5em;
+		margin-top: 0;
+	}
+
+	[class^=col-]:first-child {
+		padding-left: 0;
+	}
+
+	[class^=col-]:last-child {
+		padding-right: 0;
+	}
+
+	.col-3 {
+		width: 50%;
+	}
+
+	.col-1 {
+		width: 16.6666%;
+	}
+}
+
+
+
+
+
+
+++++++++++++++++++++++++++++++++++++++*/
+/*about
+=============================*/
+
+.about-me {
+    background-color: #D7EBE5;
+    padding-bottom: 5em;
+}
+
+
+.selfie {
+    height: auto;
+    width: 15rem;
+    border: none;
+    border-radius: 100%;
+}
+
+.about {
+    background-color: #D7EBE5;
+    width: cover;
+    background-position: center;
+    padding: 3em;
+    margin-left: -2.5%;
+    margin-right: -2.5%;
+    display: inline-block;
+}
+
+p span {
+    color: #000;
+    font-family:'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+p {
+    padding: 1em;
+    
+}
+
+/* media qeuries
+========================*/
+
+@media only screen and (min-width: 30rem) {
+    .about {
+        height: 100vh;
+     }
+    
+    p span {
+        font-size: 1.5em;
+        }
+    
+    } 
+
+@media only screen and (min-width: 25rem) {
+    .h2 {
+        font-size: 2rem;
+     }
+    
+    .about h2 {
+        top: .6em;
+        padding: 0 .325em;
+     }
+        
+
+@media only screen and (min-width: 60rem) {
+    .about me{
+        height: 110vh;
+        padding: 3em;
+     }
+    } 
+
+/*   */
+
+
+
+/* testimonials
+========================*/
+
+.testimonials {
+    background-color: #F6FCE4;
+    padding-top: 2em;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-bottom: 3em;
+    width: cover;
+    margin-left: -2.5%;
+    margin-right: -2.5%;
+    color: #606163;
+    clear: both;
+    font-family: 'playfair display', serif;
+}
+
+.testcopy p {
+    font-style: italic;
+}
+
+/* edit the weird border and things out :    
+    outline: 2px solid #00ff66;
+    outline-offset: -3em;
+    position: relative;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+
+========================*/
+
+.testimonials h2 {
+    top: .3em;
+    background: #F6FCE4;
+    padding: 0 .25em;
+}
+
+@media only screen and (min-width: 25rem) {
+    .h1 {
+        font-size: 2rem;
+     }
+    
+    .testimonials h1 {
+        top: .6em;
+        padding: 0 .325em;
+     }
+        
+} 
+
+    
+/* media quEries
+========================*/    
+    
+@media only screen and (min-width: 60rem) {
+    .h1 {
+        font-size: 2.5rem;
+     }
+    
+    .testimonials h1 {
+        width: 40%;
+        margin-left: -2.5%;
+     }
+        
+} 
+
+/* portfolio 
+==========================*/
+    
+.portfolio {
+	margin: 3em 0 0;
+}
+
+.porti-item {
+	margin: 0;
+	position: relative;
+}
+
+.porti-item img {
+	display: block;
+}
+
+.porti-desc {
+	position: absolute;
+	z-index: 100;
+	bottom: 0em;
+	left: 0em;
+	right: 0em;
+	color: white;
+	background: rgba(0,0,0,.5);
+	padding-bottom: 2em;
+}
+
+.porti-desc p {
+	margin: 1em;
+    color: #FFF;
+}
+
+@media (min-width: 37rem) {
+    .porti-item {
+		width: 50%;
+		float: left;
+	}
+    
+    
+    .work1 {
+		width: 50%;
+		float: left;
+	}
+}
+
+@media (min-width: 60rem) {
+	.porti-item {
+		width: 33.3333334%;
+		overflow: hidden;
+	}
+
+	.porti-desc {
+		transform: translateY(150%);
+	}
+
+	.porti-item:hover .porti-desc {
+		transform: translateY(0%);
+	}
+}
+  
+    
+
+.work { 
+    display: flow-root;
+    
+    }
+
+
+@media (min-width: 30rem) {
+    .work1 {
+        width: 50%;
+    }  
+}
+
+@media (min-width: 60rem) {
+    .work1 {
+        width: 33.3333333334%;
+    }  
+}
+
+/*
+    
+    
+.work    {
+    display: grid;
+    grid: repeat(2, 200px) / repeat(2, 250px); 
+    grid-auto-rows: 50px;
+    grid-auto-flow: column;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    }
+
+========================*/
+
+
+    
+    
+.port-item {
+    float: left;
+}
+
+.portfolio {
+    display: inline-block;
+}
+
+/* form
+
+========================*/  
+    
+    
+.contact {
+    display: block;
+    background-color: #848586;
+    padding-bottom: 6em;
+    }
+
+form {
+    margin: 1em;
+    padding: 1em;
+    }    
+
+input[type=text] {
+    height: 10vh;
+    width: 50vw;
+    border: 1px solid #FFF;
+    background-color: #848586;
+}
+    
+input[type=comment] {
+    width: 50vw;
+    border: 1px solid #FFF;
+    background-color: #2A6A7E;
+    height: 15vh;
+}
+    
+input[type=submit] {
+    width: 10em;
+    border: 1.5px solid ;
+    color: #fff;
+    background-color: #747577;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 1em;
+    letter-spacing: 0.1em;
+    height: 2em;
+
+}
+    
+.banner {
+    color: #fff;
+    background-color: #606163;
+    padding: 1em;
+    margin-top: 1em;
+    text-align: center;
+    }
+    
+.banner p {
+    color: #FFF;
+    font-size: 1.3em
+    }
+    
+.banner span {
+    color: #FFF;
+    }
+
+.form h2 {
+    color: #FFF;
+    } 
+    
+.form h3{
+     color: #FFF;   
+    }
+    
+.WORK-CTA {
+    background-color: #444;
+    padding: 5em;
+    border: 0px;
+    
+    }
+/* footer
+
+========================*/
+
+
+footer {
+    width: 100%;
+    background-color: #606163;
+    color: #B0D4B2;
+    text-align: left;
+    padding: 5em 0;
+    height: 17vh;
+}
+
+.container {
+    margin: 2em;
+    padding: 2em;
+    display: inline-block;
+    }
+    
+.logo-green {
+    margin: 1em;
+    padding: 1em .5em;
+}
+
+.fb {
+    padding: .3em .1em;
+}
+
+.insta {
+    padding: .3em;
+}
+
+.twit {
+    padding: .3em;
+}
+
+.pint {
+    padding: .3em;
+}
+
+.social {
+    color: #B0D4B2;
+    text-decoration: none;
+    margin: .6em;
+    padding: .5em 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300; 
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.details {
+    color: #B0D4B2;
+    margin: .6em;
+    padding: .9em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100; 
+    font-style: normal;
+    line-height: 1.4em; 
+    font-size: .9em;
+}
+
+
+.details a {
+    color: #B0D4B2;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.work1 { transition: all .2s ease-in-out; }
+.work1:hover { transform: scale(1.1); }
+
+.selfie { transition: all .2s ease-in-out; }
+.selfie:hover { transform: scale(1.1); }
+
+/* media queries
+========================*/
+    
+@media only screen and (min-width: 30rem) {
+    .logo-green {
+        align-content: center;
+        width: 8em;
+    }
+    .details {
+        float: right;
+        align-content: center;
+    }
+    
+    footer {
+        height: auto;
+    }
+}
+
+   
+@media only screen and (min-width: 22rem) {
+    .logo-green {
+        align-content: center;
+        width: 10em;
+    }
+    .details {
+        float: right;
+        align-content: center;
+    }
+    
+    footer {
+        height: auto;
+    }
+}
+    
+    .warning {
+        background-color: #B0D4B2;
+        height: 100vh;
+        width: 100vw;
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .warning h1 {
+        font-family: "playfair display", serif;
+        text-align: center;
+    }
+    
+    .hesla {
+        display: block;
+        vertical-align: middle;
+    }
+    
+/* colours:
+Gray
+#606163 / light gray #b8b9b9
+ 
+Green
+#B0D4B2
+ 
+Blue green
+#9BCCBF
+ 
+Yellow
+#F6FCE4
+ 
+Blue
+#D7EBE5
+ 
+Dark AQUA MARINE
+#2A6A7E */
