@@ -440,6 +440,28 @@ header {
 
 /*     border: solid 3px red;  */
 
+/*trying to figure out better footer and header
+=============================*/
+.middle {
+    background-color: lightcyan;
+    height: 20em;
+    padding: 5em;
+}
+
+.middle h1 {
+    font-size: 2em;
+    text-align: center;
+    
+}
+/*+++new footer fuckery+++++++++++++++++++++++++++++
+
+
+
+
+
+
+
+++++++++++++++++++++++++++++++++++++++*/
 /*about
 =============================*/
 
