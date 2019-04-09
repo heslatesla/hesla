@@ -558,7 +558,7 @@ p {
 	left: 0em;
 	right: 0em;
 	color: white;
-	background: rgba(0,0,0,.6);
+	background: rgba(0,0,0,.5);
 	padding-bottom: 2em;
 }
 
@@ -779,8 +779,8 @@ footer {
     cursor: pointer;
 }
 
-.port-item { transition: all .2s ease-in-out; }
-.port-item:hover { transform: scale(1.1); }
+.work1 { transition: all .2s ease-in-out; }
+.work1:hover { transform: scale(1.1); }
 
 .selfie { transition: all .2s ease-in-out; }
 .selfie:hover { transform: scale(1.1); }
