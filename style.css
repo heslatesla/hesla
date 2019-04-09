@@ -406,7 +406,15 @@ header {
 .cta {
     background-color: #9BCCBF;
     height: 30em;
-    width: 100%;
+    padding-top: 2em;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-bottom: 3em;
+    margin-left: -2.5%;
+    margin-right: -3.5%;
+    clear: both;
+    font-family: "playfair display", serif;
+}
     
 }    
 /* media queries
@@ -561,7 +569,8 @@ p {
         
 } 
 
-/* portfolio */
+/* portfolio 
+==========================*/
     
 .portfolio {
 	margin: 3em 0 0;
@@ -673,7 +682,8 @@ p {
     
 .contact {
     display: block;
-    background-color: #2A6A7E;
+    background-color: #848586;
+    padding-bottom: 6em;
     }
 
 form {
@@ -685,7 +695,7 @@ input[type=text] {
     height: 10vh;
     width: 50vw;
     border: 1px solid #FFF;
-    background-color: #2A6A7E;
+    background-color: #848586;
 }
     
 input[type=comment] {
@@ -696,10 +706,10 @@ input[type=comment] {
 }
     
 input[type=submit] {
-    width: 60%;
-    border: 1px solid ;
-    color: #2A6A7E;
-    background-color: #B0d4b2;
+    width: 10em;
+    border: 2px solid ;
+    color: #fff;
+    background-color: #606163;
     font-family: "Montserrat", sans-serif;
     font-size: 1.5em;
     font-weight: 700;
@@ -707,12 +717,12 @@ input[type=submit] {
     border-radius: 1em;
     letter-spacing: 0.1em;
     height: 2em;
-    
+
 }
     
 .banner {
     color: #fff;
-    background-color: #2A6A7E;
+    background-color: #606163;
     padding: 1em;
     margin-top: 1em;
     text-align: center;
@@ -720,6 +730,7 @@ input[type=submit] {
     
 .banner p {
     color: #FFF;
+    font-size: 1.3em
     }
     
 .banner span {
@@ -734,6 +745,9 @@ input[type=submit] {
      color: #FFF;   
     }
     
+.WORK-CTA {
+    background-color: #9BCCBF;
+    }
 /* footer
 
 ========================*/
@@ -864,7 +878,7 @@ footer {
     
 /* colours:
 Gray
-#606163
+#606163 / light gray #b8b9b9
  
 Green
 #B0D4B2
