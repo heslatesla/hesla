@@ -288,6 +288,19 @@ p {
     border: #FFF
 }
 
+.button-dark {
+	color: #232323;
+	border-color: #232323;
+}
+
+.button-dark:hover,
+.button-dark:focus {
+	background: #2A6A7E;
+	color: #B0D4B2;
+    border: #B0D4B2;
+}
+
+
 /* media qeuries
 ========================*/
 
@@ -390,7 +403,9 @@ header {
     font-weight: 100;
 }
    
-    
+.cta {
+    background-color: #9BCCBF;
+}    
 /* media queries
 ========================*/
 
