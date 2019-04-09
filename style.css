@@ -277,8 +277,9 @@ p {
 
 .button-small:hover,
 .button-small:focus {
-	background: #232323;
-	color: #00ff6c;
+	background: #B0D4B2;
+	color: #000;
+    border: #FFF
 }
 
 /* media qeuries
@@ -520,7 +521,7 @@ p {
 } 
 
     
-/* media qeuries
+/* media quEries
 ========================*/    
     
 @media only screen and (min-width: 60rem) {
@@ -563,6 +564,7 @@ p {
 
 .porti-desc p {
 	margin: 1em;
+    color: #FFF;
 }
 
 @media (min-width: 37rem) {
@@ -588,7 +590,7 @@ p {
 		transform: translateY(150%);
 	}
 
-	.porti-item:hover .port-desc {
+	.porti-item:hover .porti-desc {
 		transform: translateY(0%);
 	}
 }
