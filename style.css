@@ -301,6 +301,17 @@ p {
 }
 
 
+.button-accent2 {
+    color:#FFF;
+    border-color: #FFF;
+}
+
+.button-accent2:hover,
+.button-accent2:focus {
+    background: #FFF;
+    color: #000;
+}
+
 /* media qeuries
 ========================*/
 
@@ -746,7 +757,10 @@ input[type=submit] {
     }
     
 .WORK-CTA {
-    background-color: #9BCCBF;
+    background-color: #444;
+    padding: 5em;
+    border: 0px;
+    
     }
 /* footer
 
