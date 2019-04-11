@@ -146,10 +146,10 @@ label {
 }
 
 
-.container {
-    width: 95%;
+.header-container {
+    padding: 2em;
     max-width: 70em;
-    padding-bottom: 5em;
+    padding-bottom: 1.2em;
     margin: 0 auto; 
     font-family: serif;
     display: inline-block;
@@ -875,13 +875,11 @@ input[type=submit] {
    
 .social {
   padding:.2em;
-  margin-bottom:0;
-  list-style:none
+  margin-bottom: 0;
+  list-style: none
 }
 
-.fb {
-    padding: .3em;
-    }
+.fb { padding: .3em; }
     
 
 .fb { transition: all .2s ease-in-out; }
@@ -889,23 +887,17 @@ input[type=submit] {
 
 
 
-.insta {
-        padding: .3em;
-    }
+.insta { padding: .3em;}
 
 .insta { transition: all .2s ease-in-out; }
 .insta:hover { transform: scale(1.1); }
 
-.twit {
-        padding: .3em;
-    }
+.twit { padding: .3em; }
 
 .twit { transition: all .2s ease-in-out; }
 .twit:hover { transform: scale(1.1); }
 
-.pint {
-        padding: .3em;
-    }
+.pint { padding: .3em; }
 
 .pint { transition: all .2s ease-in-out; }
 .pint:hover { transform: scale(1.1); }
@@ -920,7 +912,7 @@ input[type=submit] {
 {
   .site-footer [class^=col-]
   {
-    margin-bottom:3em;
+    margin-bottom:.75em;
   }
 }
     
@@ -936,6 +928,27 @@ input[type=submit] {
   {
     text-align:center
   }
+
+    @media (max-width:375px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+      text-align:center;
+      font-size: .3em;
+      margin: 0;
+      background-color: #606163;
+      color: white;
+  }
+    
+    .site-footer p{
+        font-size: .3em;
+    }
+    
+
 }
     
  
