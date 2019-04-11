@@ -810,21 +810,22 @@ footer {
     padding: 1em .5em;
 }
 
-.fb {
-    padding: .3em .1em;
-}
+.fb { padding: .3em; }
+    
+.fb { transition: all .2s ease-in-out; }
+.fb:hover { transform: scale(1.1); }
 
-.insta {
-    padding: .3em;
-}
+.insta { padding: .3em;}
+.insta { transition: all .2s ease-in-out; }
+.insta:hover { transform: scale(1.1); }    
 
-.twit {
-    padding: .3em;
-}
+.twit { padding: .3em; }
+.twit { transition: all .2s ease-in-out; }
+.twit:hover { transform: scale(1.1); }
 
-.pint {
-    padding: .3em;
-}
+.pint { padding: .3em; }
+.pint { transition: all .2s ease-in-out; }
+.pint:hover { transform: scale(1.1); }
 
 .social {
     color: #B0D4B2;
