@@ -38,6 +38,7 @@ img {
     display: block;
     height: 12vh;
     width: 100%;
+    background-color: #fff;
 }
 
 .nav {
@@ -92,10 +93,7 @@ span {
     color: #606163       
 }
 
-.menu a::active {
-    border-bottom: .3em solid #2A6A7E;
-    color: RED;
-}
+
 
 .nav a:hover {
   border-bottom: .3em solid #2A6A7E;
@@ -104,6 +102,12 @@ span {
 
 
 /*
+
+.menu a:active {
+    border-bottom: .3em solid #2A6A7E;
+    color: RED;
+}
+
 .menu a::before {
     content: '';
     display: block;
@@ -116,11 +120,14 @@ span {
     transition: all ease-in-out 300ms; 
 }
 
-*/
 
 .nav a:hover::before {
      width: 100%;
 }
+
+*/
+
+
 
 
 /*
@@ -145,10 +152,12 @@ label {
     display: none;
     width: 26px;
     float: right;
+    background-color: #FFF;
 }
 
 #toggle {
     display: none;
+    background-color: #FFF;
 }
 
 
