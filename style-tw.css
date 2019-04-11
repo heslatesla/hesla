@@ -498,19 +498,19 @@ header {
 
 
 .cta {
-    background-color: #747577;
-    height: 30em;
-    padding-top: 2em;
-    padding-left: 5em;
-    padding-right: 5em;
-    padding-bottom: 3em;
+    background-color: #e9f28a;
+    height: 27em;
+    padding-top: 1em;
     margin-left: -2.5%;
-    margin-right: -3.5%;
+    margin-right: -2.5%;
     clear: both;
     font-family: "playfair display", serif;
 }
-    
-}    
+
+.cta h1{
+    text-align: center;
+}
+       
 /* media queries
 ===========================
 
