@@ -434,6 +434,8 @@ header {
     background-size: cover;
     background-position: center;
     padding: #em;
+    margin-left: -2.5%;
+    margin-right: -2.5%;
     font-family: 'playfair display', serif;
     font-weight: 100;
 }
@@ -452,7 +454,12 @@ header {
 
 
 .social-media h2 {
-        color: #fff;
+    color: #fff;
+}
+
+.social-media span {
+    color: #e9f28a;
+    font-style: 900;
 }
 
 .wfb{
@@ -728,6 +735,12 @@ p {
 }
 
 
+.work { 
+    display: flow-root;
+    
+    }
+
+
 /* media queries++++++++++++
 
 @media (min-width: 37rem) {
@@ -760,10 +773,6 @@ p {
   
 */    
 
-.work { 
-    display: flow-root;
-    
-    }
 
 /*
 @media (min-width: 30rem) {
