@@ -465,7 +465,16 @@ header {
 
 ========================*/
 
-
+.social-media {
+    background-color: #65b09c;
+    padding-top: 2em;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-bottom: 3em;
+    width: cover;
+    margin-left: -2.5%;
+    margin-right: -2.5%;
+}
 
 /*     border: solid 3px red;  */
 
