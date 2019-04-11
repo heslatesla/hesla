@@ -174,8 +174,8 @@ label {
 section:: after,
 footer:: after {
     content: '';
-    display: inline-block; /*was block - change if shit fucks out*/
-    /*clear: both; */
+    display: block; /*was block - change if shit fucks out*/
+    clear: both;
 }
 
 /* media queries
