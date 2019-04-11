@@ -73,6 +73,10 @@
 	.porti-item:hover .porti-desc {
 		transform: translateY(0%);
 	}
+    
+    .work1 {
+        width: 33.3333333334%;
+    }  
 
     
 }
@@ -127,6 +131,9 @@
         height: auto;
     }
     
+    .work1 {
+        width: 50%;
+    }
     
     
 
@@ -181,8 +188,24 @@
 
 */
     
-    
+
+
 /*
+    
+@media (min-width: 30rem) {
+    .work1 {
+        width: 50%;
+    }  
+}
+
+@media (min-width: 60rem) {
+    .work1 {
+        width: 33.3333333334%;
+    }  
+}    
+    
+    
+    
 @media only screen and (max-width: 60rem) {
     label {
         display: block;

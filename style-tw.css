@@ -359,7 +359,7 @@ header {
 .top-logo {
     float: clear;
     padding: 1em;
-    width: 50%;
+    width: 10rem;
     margin-top: .5em;
     z-index: 200;
 }
@@ -438,6 +438,27 @@ header {
     font-weight: 100;
 }
    
+
+.social-media {
+    background-color: #65b09c;
+    padding-top: 2em;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-bottom: 3em;
+    width: cover;
+    margin-left: -2.5%;
+    margin-right: -2.5%;
+}
+
+
+.social-media h2 {
+        color: #fff;
+}
+
+.wfb{
+    width: 4em;
+}
+
 .cta {
     background-color: #747577;
     height: 30em;
@@ -713,7 +734,7 @@ p {
     
     }
 
-
+/*
 @media (min-width: 30rem) {
     .work1 {
         width: 50%;
@@ -725,6 +746,8 @@ p {
         width: 33.3333333334%;
     }  
 }
+
+*/
 
 /*
     
@@ -834,12 +857,14 @@ input[type=submit] {
 
 
 footer {
-    width: 100%;
     background-color: #606163;
-    color: #B0D4B2;
-    text-align: left;
-    padding: em 0;
-    height: 30vh;
+    text-align: center;
+    padding: 1em 3em 2em;
+    width: cover;
+    margin-left: -2.5%;
+    margin-right: -2.5%;
+    color: #606163;
+    clear: both;
 }
 
 .container {
