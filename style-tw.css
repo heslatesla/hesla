@@ -827,6 +827,8 @@ input[type=text] {
     width: 50vw;
     border: 1px solid #FFF;
     background-color: #848586;
+    font-family: "Playfair Display", serif;
+    font-size: 2em;
 }
     
 input[type=comment] {
