@@ -866,9 +866,11 @@ input[type=submit] {
     padding-bottom: 1em;
     margin: 0 auto; 
     font-family: serif;
-    display: inline-block;
+    display: flex;
+    align-items: center;
     
     }
+    
     
 .site-footer h4 {
     color:#fff;
@@ -924,7 +926,8 @@ input[type=submit] {
 .copyright-text {
     margin:0;
     text-align: center;
-    clear: both;
+    display: inline-block;
+    margin: 0 auto;
     }
 /*    
 
