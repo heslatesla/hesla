@@ -457,7 +457,38 @@ header {
 
 .wfb{
     width: 4em;
+    padding: .3em;
 }
+
+.wfb { transition: all .2s ease-in-out; }
+.wfb:hover { transform: scale(1.1); }
+
+
+.winsta{
+    width: 4em;
+    padding: .3em;
+}
+
+.winsta { transition: all .2s ease-in-out; }
+.winsta:hover { transform: scale(1.1); } 
+
+.wtwit{
+    width: 4em;
+    padding: .3em;
+}
+
+.wtwit { transition: all .2s ease-in-out; }
+.wtwit:hover { transform: scale(1.1); }
+
+
+.wpint{
+    width: 4em;
+    padding: .3em;
+}
+
+.wpint { transition: all .2s ease-in-out; }
+.wpint:hover { transform: scale(1.1); }
+
 
 .cta {
     background-color: #747577;
@@ -868,7 +899,7 @@ footer {
 }
 
 .container {
-    margin: 2em;
+    /*margin: 2em;*/
     padding: 2em;
     display: inline-block;
     align-items: center;

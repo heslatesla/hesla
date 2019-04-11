@@ -112,6 +112,9 @@
 		float: left;
 	}
     
+    .button {
+    font-size: .75rem;
+     }
     
     .work1 {
 		width: 50%;
