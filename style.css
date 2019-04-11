@@ -482,6 +482,7 @@ header {
 =============================*/
 
 .about-me {
+    position: -1em;
     background-color: #D7EBE5;
     padding-bottom: 5em;
 }
@@ -495,7 +496,7 @@ header {
 }
 
 .about {
-    background-color: #D7EBE5;
+
     width: cover;
     background-position: center;
     padding: 3em;
@@ -516,6 +517,8 @@ p {
     padding: 1em;
     
 }
+
+/*removed bg col from  .about   background-color: #D7EBE5;*/
 
 /* media qeuries
 ========================*/
