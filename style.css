@@ -163,7 +163,7 @@ label {
 
 .container {
     width: 95%;
-    max-width: 70em;
+    /*max-width: 70em;*/
     margin: 0 auto; 
     font-family: serif;
     display: inline-block;
@@ -174,11 +174,11 @@ label {
 section:: after,
 footer:: after {
     content: '';
-    display: block;
-    clear: both;
+    display: inline-block; /*was block - change if shit fucks out*/
+    /*clear: both; */
 }
 
-/* media qeuries
+/* media queries
 ========================*/
 
 @media only screen and (max-width: 60rem) {
@@ -190,6 +190,7 @@ footer:: after {
         text-align: center;
         width: 100%;
         display: none;
+        background-color: white;
     }
     .menu a {
         display: block;
@@ -198,6 +199,7 @@ footer:: after {
     }
     #toggle:checked + .menu {
         display: block;
+        background-color: white;
     }
 }
 
@@ -423,9 +425,11 @@ header {
 
 .home-hero {
     background-color: #9BCCBF;
-    background-size: cover;
-    background-position: center;
-    padding: #em;
+    height: 60%;
+    /*
+        background-size: cover;
+        background-position: center;*/
+    padding: em;
     font-family: 'playfair display', serif;
     font-weight: 100;
 }
@@ -449,8 +453,8 @@ header {
 
 @media only screen and  (min-width: 60rem) {
     .home-hero {
-        height: 80vh;
-        padding-top: 8vh;
+        height: 80%;
+        padding-top: 8em;
      }
     } 
 
@@ -569,7 +573,7 @@ p {
     margin-left: -2.5%;
     margin-right: -2.5%;
     color: #606163;
-    clear: both;
+    /*clear: both;*/
     font-family: 'playfair display', serif;
 }
 
@@ -860,14 +864,13 @@ footer {
 
 .details {
     color: #B0D4B2;
-    margin: .6em;
-    padding: .9em;
+   /* margin: .6em; padding: .9em;*/
     font-family: 'Montserrat', sans-serif;
     font-weight: 100; 
     font-style: normal;
     line-height: 1.4em; 
     font-size: .9em;
-    display: block;
+    display: inline-block;
     
 }
 
@@ -878,8 +881,8 @@ footer {
 }
 
 .details a:hover {
-  color:#FFF;
-  text-decoration:none;
+  color: #FFF;
+  text-decoration: none;
 }
 
 .work1 { transition: all .2s ease-in-out; }
@@ -891,9 +894,11 @@ footer {
 /* media queries
 ========================*/
     
-@media only screen and (min-width: 30rem) {
+ 
+    
+@media only screen and (min-width: 60rem) {
     .logo-green {
-        align-content: center;
+        /*align-content: center;*/
         width: 8em;
     }
     .details {
@@ -902,15 +907,15 @@ footer {
     }
     
     footer {
-        height: auto;
+        height: 50%;
     }
 }
 
-   
-@media only screen and (min-width: 22rem) {
+    
+@media only screen and (min-width: 30rem) {
     .logo-green {
-        align-content: center;
-        width: 6em;
+        /*align-content: center;*/
+        width: 8em;
     }
     .details {
         float: right;
@@ -918,9 +923,49 @@ footer {
     }
     
     footer {
-        height: auto;
+        height: 50%;
     }
 }
+
+   
+@media only screen and (min-width: 22rem) {
+    .logo-green {
+        align-content: center;
+        width: 8em;
+    }
+    .details {
+        /*float: right;*/
+        align-content: center;
+    }
+    
+    footer {
+        height: 50%;
+        background-color: #606163;
+        color: #B0D4B2;
+    }
+}
+    
+/*@media only screen and (min-width: 200px) {
+    .logo-green {
+        align-content: center;
+        width: 50%;
+    }
+    
+
+        /*    .details {
+    float: right;
+        align-content: center;
+   
+    footer {
+        height: 50%;
+        background-color: #606163;
+        color: #B0D4B2;
+        display: inline-block;
+        font-size: .78em;
+        text-align: center;
+    }
+}
+   */
     
     .warning {
         background-color: #B0D4B2;
