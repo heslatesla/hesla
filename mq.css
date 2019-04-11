@@ -1,0 +1,390 @@
+/*media queries*/
+
+@media only screen and (max-width: 768px) {label {
+        display: block;
+        cursor: pointer;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+    }
+    
+    #toggle:checked + .menu {
+        display: block;}
+
+    .title {
+    font-size: 2.5rem; 
+    }
+        
+    .button {
+    font-size: 1.5rem;
+     }
+    
+    .top-logo {
+        float: left;
+        width: 8em;
+    }
+    
+    .nav {
+        float: right;
+        font-size: 1rem;
+        
+    }
+    
+    header {
+        height: 10em;
+    }   
+
+    .home-hero {
+        height: 80vh;
+        padding-top: 8vh;
+     }
+    
+    .about me{
+        height: 110vh;
+        padding: 3em;
+     }
+    
+    .h1 {
+        font-size: 2.5rem;
+     }
+    
+    .testimonials h1 {
+        width: 40%;
+        margin-left: -2.5%;
+     }
+    
+    .porti-item {
+		width: 33.3333334%;
+		overflow: hidden;
+	}
+
+	.porti-desc {
+		transform: translateY(150%);
+	}
+
+	.porti-item:hover .porti-desc {
+		transform: translateY(0%);
+	}
+
+    
+}
+    
+    
+@media only screen and (max-width: 480px) {
+     .top-logo {
+        float: left;
+        align-content: center;
+        width: 8em;
+    }
+    
+    .nav {
+        float: right;
+        font-size: 2rem;
+        
+    }
+    
+    header {
+        height: 5em;
+    }
+    
+    .about {
+        height: 100vh;
+     }
+    
+    p span {
+        font-size: 1.5em;
+        }
+    
+     .porti-item {
+		width: 50%;
+		float: left;
+	}
+    
+    
+    .work1 {
+		width: 50%;
+		float: left;
+	}
+    
+     .logo-green {
+        align-content: center;
+        width: 8em;
+    }
+    .details {
+        float: right;
+        align-content: center;
+    }
+    
+    footer {
+        height: auto;
+    }
+    
+    
+    
+
+}
+
+
+@media only screen and (max-width: 375px) {
+    .h2 {
+        font-size: 2rem;
+     }
+    
+    .about h2 {
+        top: .6em;
+        padding: 0 .325em;
+     }
+    
+    .h1 {
+        font-size: 2rem;
+     }
+    
+    .testimonials h1 {
+        top: .6em;
+        padding: 0 .325em;
+     }
+    
+    .logo-green {
+        align-content: center;
+        width: 6em;
+    }
+    .details {
+        float: right;
+        align-content: center;
+    }
+    
+    footer {
+        height: auto;
+        
+}
+
+
+
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++
+@media only screen and (max-width: 768px) {}
+    
+    
+@media only screen and (max-width: 480px) {}
+
+
+@media only screen and (max-width: 375px) {}
+
+*/
+    
+    
+/*
+@media only screen and (max-width: 60rem) {
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+    }
+    #toggle:checked + .menu {
+        display: block;}
+        
+} 
+        
+@media only screen and (min-width: 60rem) {
+    .title {
+    font-size: 4rem;
+    }
+}
+
+
+@media only screen and (min-width: 60rem) {
+    .button {
+    font-size: 2rem;
+     }
+    }
+
+
+@media only screen and (min-width: 60rem) {
+    .top-logo {
+        float: left;
+        width: 8em;
+    }
+    .nav {
+        float: right;
+        font-size: 1rem;
+        
+    }
+    header {
+        height: 10em;
+    }
+}
+
+
+
+@media only screen and (min-width: 30rem) {
+    .top-logo {
+        float: left;
+        align-content: center;
+        width: 8em;
+    }
+    .nav {
+        float: right;
+        font-size: 2rem;
+        
+    }
+    header {
+        height: 5em;
+    }
+}
+
+
+
+@media only screen and  (min-width: 60rem) {
+    .home-hero {
+        height: 80vh;
+        padding-top: 8vh;
+     }
+    } 
+
+
+@media only screen and (min-width: 30rem) {
+    .about {
+        height: 100vh;
+     }
+    
+    p span {
+        font-size: 1.5em;
+        }
+    
+    } 
+
+
+
+@media only screen and (min-width: 25rem) {
+    .h2 {
+        font-size: 2rem;
+     }
+    
+    .about h2 {
+        top: .6em;
+        padding: 0 .325em;
+     }
+      
+
+@media only screen and (min-width: 60rem) {
+    .about me{
+        height: 110vh;
+        padding: 3em;
+     }
+    } 
+
+  
+
+@media only screen and (min-width: 25rem) {
+    .h1 {
+        font-size: 2rem;
+     }
+    
+    .testimonials h1 {
+        top: .6em;
+        padding: 0 .325em;
+     }
+        
+} 
+
+    
+/* media quEries
+========================  
+    
+@media only screen and (min-width: 60rem) {
+    .h1 {
+        font-size: 2.5rem;
+     }
+    
+    .testimonials h1 {
+        width: 40%;
+        margin-left: -2.5%;
+     }
+        
+} 
+
+
+
+@media (min-width: 37rem) {
+    .porti-item {
+		width: 50%;
+		float: left;
+	}
+    
+    
+    .work1 {
+		width: 50%;
+		float: left;
+	}
+}
+
+  
+
+@media (min-width: 60rem) {
+	.porti-item {
+		width: 33.3333334%;
+		overflow: hidden;
+	}
+
+	.porti-desc {
+		transform: translateY(150%);
+	}
+
+	.porti-item:hover .porti-desc {
+		transform: translateY(0%);
+	}
+}
+ 
+
+
+    
+@media only screen and (min-width: 30rem) {
+     .logo-green {
+        align-content: center;
+        width: 8em;
+    }
+    .details {
+        float: right;
+        align-content: center;
+    }
+    
+    footer {
+        height: auto;
+    }
+   
+}
+
+*/
+
+@media only screen and (min-width: 22rem) {
+    .logo-green {
+        align-content: center;
+        width: 6em;
+    }
+    .details {
+        float: right;
+        align-content: center;
+    }
+    
+    footer {
+        height: auto;
+    }
+}

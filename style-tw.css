@@ -42,7 +42,7 @@ img {
 }
 
 .nav {
-    text-align: right;
+    float: right;
     height: 70px;
     line-height: 70px;
 }
@@ -180,7 +180,7 @@ footer:: after {
 
 /* media qeuries
 ========================*/
-
+/*
 @media only screen and (max-width: 60rem) {
     label {
         display: block;
@@ -200,7 +200,7 @@ footer:: after {
         display: block;
     }
 }
-
+*/
 
 /* typography h1
 ========================*/
@@ -230,7 +230,7 @@ h2 {
 
 .title {
     font-family: "playfair display", serif;
-    font-size: 2.6rem;
+    font-size: 4rem;
     font-weight: 300;
     display: block;
     margin-top: 0em;
@@ -260,17 +260,19 @@ p {
 
 /* media qeuries
 ========================*/
-
+/*
 @media only screen and (min-width: 60rem) {
     .title {
     font-size: 4rem;
     }
 }
 
+*/
+
 /* buttons
 ========================*/
 .button {
-    font-size: 1.1rem;
+    font-size: 2rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     text-decoration: none;
@@ -329,13 +331,15 @@ p {
 }
 
 /* media qeuries
-========================*/
 
 @media only screen and (min-width: 60rem) {
     .button {
     font-size: 2rem;
      }
     }
+========================*/
+
+
 
 /* header
 ========================*/
@@ -355,8 +359,8 @@ header {
 .top-logo {
     float: clear;
     padding: 1em;
-    width: 100%;
-    margin-top: 1em;
+    width: 50%;
+    margin-top: .5em;
     z-index: 200;
 }
 
@@ -383,6 +387,9 @@ header {
 
 /* media queries
 ========================*/
+
+/* 
+
 
 @media only screen and (min-width: 60rem) {
     .top-logo {
@@ -415,7 +422,8 @@ header {
     }
 }
 
-/*   */
+
+*/
 
 
 /* hero
@@ -445,7 +453,7 @@ header {
     
 }    
 /* media queries
-========================*/
+===========================
 
 @media only screen and  (min-width: 60rem) {
     .home-hero {
@@ -453,6 +461,11 @@ header {
         padding-top: 8vh;
      }
     } 
+
+
+========================*/
+
+
 
 /*     border: solid 3px red;  */
 
@@ -520,6 +533,8 @@ p {
 /* media qeuries
 ========================*/
 
+
+/* 
 @media only screen and (min-width: 30rem) {
     .about {
         height: 100vh;
@@ -547,9 +562,7 @@ p {
         height: 110vh;
         padding: 3em;
      }
-    } 
-
-/*   */
+    }   */
 
 
 
@@ -591,6 +604,8 @@ p {
     padding: 0 .25em;
 }
 
+
+/*
 @media only screen and (min-width: 25rem) {
     .h1 {
         font-size: 2rem;
@@ -602,11 +617,11 @@ p {
      }
         
 } 
-
+*/
     
-/* media quEries
+/* media queries
 ========================*/    
-    
+/*    
 @media only screen and (min-width: 60rem) {
     .h1 {
         font-size: 2.5rem;
@@ -651,6 +666,9 @@ p {
     color: #FFF;
 }
 
+
+/* media queries++++++++++++
+
 @media (min-width: 37rem) {
     .porti-item {
 		width: 50%;
@@ -679,7 +697,7 @@ p {
 	}
 }
   
-    
+*/    
 
 .work { 
     display: flow-root;
@@ -886,7 +904,7 @@ footer {
 .selfie:hover { transform: scale(1.1); }
 
 /* media queries
-========================*/
+========================
     
 @media only screen and (min-width: 30rem) {
     .logo-green {
@@ -918,7 +936,9 @@ footer {
         height: auto;
     }
 }
-    
+  */
+
+
     .warning {
         background-color: #B0D4B2;
         height: 100vh;
