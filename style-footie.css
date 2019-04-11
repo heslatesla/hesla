@@ -868,6 +868,7 @@ input[type=submit] {
     font-family: serif;
     display: flex;
     align-items: center;
+    justify-content: center;
     
     }
     
@@ -926,8 +927,7 @@ input[type=submit] {
 .copyright-text {
     margin:0;
     text-align: center;
-    display: inline-block;
-    margin: 0 auto;
+    
     }
 /*    
 
