@@ -5,6 +5,7 @@
 * {
     box-sizing: border-box;
     transition: all ease-in-out 250ms;
+    
 }
 
 html, body {
@@ -858,6 +859,15 @@ input[type=submit] {
 
 .container {
     width: 95%;
+    padding: 1.3rem;
+    text-align: center;
+    width: 95%;
+    max-width: 70em;
+    padding-bottom: 1em;
+    margin: 0 auto; 
+    font-family: serif;
+    display: inline-block;
+    
     }
     
 .site-footer h4 {
@@ -910,9 +920,14 @@ input[type=submit] {
 .pint:hover { transform: scale(1.1); }
 
 
-/*    
+    
 .copyright-text {
-  margin:0
+    margin:0;
+    text-align: center;
+    clear: both;
+    }
+/*    
+
 } */
     
 @media (max-width:991px)
@@ -945,8 +960,8 @@ input[type=submit] {
   }
   .site-footer .copyright-text,.site-footer .social-icons
   {
-      text-align:center;
-      font-size: .3em;
+      text-align: center;
+      font-size: .5em;
       margin: 0;
       background-color: #606163;
       color: white;
