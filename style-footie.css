@@ -458,7 +458,7 @@ header {
 
 
 /* Column system
-=================== */
+=================== 
 
 [class^=col-] {
 	width: 100%;
@@ -474,6 +474,7 @@ header {
 	float: left;
 }
 
+*/
 
 @media (min-width: 40rem) {
 
@@ -839,7 +840,7 @@ input[type=submit] {
     
 .site-footer {
   background-color: #606163;
-  padding: 2rem;
+  padding: 2em;
   line-height: 1.4em;
   color: #B0D4B2;
 }
@@ -855,7 +856,10 @@ input[type=submit] {
     
 }    
 
-
+.container {
+    width: 95%;
+    }
+    
 .site-footer h4 {
     color:#fff;
     font-size: 1.7em;
