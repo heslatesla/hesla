@@ -537,7 +537,24 @@ header {
 }
 
 
+.video {
+    text-decoration: none;
+    padding: 2em;    
+}
 
+
+.video a {
+    text-decoration: none;
+    color: #444;
+    font-family: "montserrat", sans-serif;
+    text-transform: uppercase;
+}
+
+
+.video a:hover{
+    font-weight: 900;
+    color: #65B09C;
+}
        
 /* media queries
 ===========================
