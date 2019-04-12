@@ -627,11 +627,11 @@ header {
 }
 
 
-.selfie {
+.hesli {
     height: auto;
     width: 15rem;
     border: none;
-    border-radius: 100%;
+
 }
 
 .about {
@@ -1043,8 +1043,8 @@ footer {
 .work1 { transition: all .2s ease-in-out; }
 .work1:hover { transform: scale(1.1); }
 
-.selfie { transition: all .2s ease-in-out; }
-.selfie:hover { transform: scale(1.1); }
+.hesli { transition: all .2s ease-in-out; }
+.hesli:hover { transform: scale(1.1); }
 
 /* media queries
 ========================
@@ -1695,6 +1695,7 @@ header {
     color: #444;
     font-family: "montserrat", sans-serif;
     text-transform: uppercase;
+    text-decoration-line: overline;
 }
 
 
@@ -1716,6 +1717,12 @@ header {
     text-decoration: none;
     color: #444;
     text-transform: uppercase;
+    text-decoration-line: overline;
+}
+
+.sorry a:hover {
+    font-weight: 900;
+    color: #65B09C;
 }
 
 /* media queries
