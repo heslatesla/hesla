@@ -21,10 +21,11 @@
     .title {
     font-size: 2.5rem; 
     }
-        
+      
+    /*
     .button {
     font-size: 1.5rem;
-     }
+     } */
     
     .top-logo {
         float: left;
@@ -121,9 +122,13 @@
         font-size: 1.5em;
         }
     
+    
+    /*
     .button {
     font-size: .75rem;
      }
+    */
+    
     
      .logo-green {
         align-content: center;

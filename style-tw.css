@@ -45,10 +45,13 @@ img {
     float: right;
     height: 70px;
     line-height: 70px;
+    z-index: 300;
+    background-color: #FFF;
 }
 
 .menu {
     margin: 0 30px 0 0;
+    background-color: #fff;
 }
 
 .menu a {
@@ -272,7 +275,7 @@ p {
 /* buttons
 ========================*/
 .button {
-    font-size: 2rem;
+    font-size: 2em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     text-decoration: none;
@@ -295,27 +298,27 @@ p {
 }
 
 .button-small {
-	font-size: .7rem;
+	font-size: .7em;
 	font-weight: 700;
 }
 
 .button-small:hover,
 .button-small:focus {
-	background: #B0D4B2;
+	background: #e9f28a
 	color: #000;
     border: #FFF
 }
 
 .button-dark {
-	color: #232323;
-	border-color: #232323;
+	color: #FFF;
+	border-color: #FFF;
 }
 
 .button-dark:hover,
 .button-dark:focus {
-	background: #2A6A7E;
-	color: #B0D4B2;
-    border: #B0D4B2;
+	background: #e9f28a;
+	color: #000;
+    border: #F6FCE4;
 }
 
 
@@ -330,14 +333,35 @@ p {
     color: #000;
 }
 
-/* media qeuries
+/*media queries*/
+
+
+@media only screen and (min-width: 30rem) {
+    .button {
+    font-size: 1em;
+     }
+    
+    .button-dark {
+        font-size: .9em;
+     }
+    }
 
 @media only screen and (min-width: 60rem) {
     .button {
-    font-size: 2rem;
+    font-size: 1.5em;
+     }
+    
+        .button-dark {
+        font-size: 1.6em;
      }
     }
-========================*/
+
+
+
+
+
+
+/*========================*/
 
 
 
@@ -498,18 +522,22 @@ header {
 
 
 .cta {
-    background-color: #65b09c;
+    background-color: #444;
     height: 27em;
     padding-top: 1em;
     margin-left: -2.5%;
     margin-right: -2.5%;
     clear: both;
     font-family: "playfair display", serif;
+    color: #fff;
 }
 
 .cta h1{
     text-align: center;
 }
+
+
+
        
 /* media queries
 ===========================
@@ -1083,4 +1111,8 @@ Blue
 #D7EBE5
  
 Dark AQUA MARINE
-#2A6A7E */
+#2A6A7E
+
+NEW BLUE GREEN #65B09C 
+
+DARKER YELLOW #e9f28a*/
