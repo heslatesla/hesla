@@ -725,8 +725,9 @@ p {
 	left: 0em;
 	right: 0em;
 	color: white;
-	background: rgba(101,176,156,.5);
+	background: rgb(101,176,156);
 	padding-bottom: 2em;
+    padding-top: 1m;
 }
 
 .porti-desc p {

@@ -76,7 +76,6 @@
 		width: 50%;
 		float: left;
 	}
-
 }
 
 
@@ -121,6 +120,11 @@
         font-size: 1.5em;
         }
     
+     .porti-item {
+		width: 50%;
+		float: left;
+	}
+    
     .button {
     font-size: .75rem;
      }
@@ -146,7 +150,8 @@
 		width: 50%;
 		float: left;
 	}
-        
+    
+    
 
 }
 
@@ -180,14 +185,7 @@
     }
     
     footer {
-        height: auto;}
-        
- 
-    .porti-item {
-		width: 70%;
-		float: left;
-	}
-    
+        height: auto;
         
 }
 
