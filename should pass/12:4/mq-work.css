@@ -1,0 +1,26 @@
+@media (min-width: 37rem) {
+    .porti-item {
+		width: 50%;
+		float: left;
+	}
+    
+    .work1 {
+		width: 50%;
+		float: left;
+	}
+}
+
+@media (min-width: 60rem) {
+	.porti-item {
+		width: 33.3333334%;
+		overflow: hidden;
+	}
+
+	.porti-desc {
+		transform: translateY(150%);
+	}
+
+	.porti-item:hover .porti-desc {
+		transform: translateY(0%);
+	}
+}   
