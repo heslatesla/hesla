@@ -369,6 +369,7 @@ p {
 ========================*/
 
 
+
 header {
     display: inline-block;
     left: 0;
@@ -793,17 +794,6 @@ p {
     color: #FFF;
 }
 
-
-.port-item {
-    float: left;
-}
-
-.portfolio {
-    display: inline-block;
-}
-
-
-
 .work    {
     display: grid;
     grid: repeat(2, 200px) / repeat(2, 250px); 
@@ -884,7 +874,13 @@ p {
 
     
     
+.port-item {
+    float: left;
+}
 
+.portfolio {
+    display: inline-block;
+}
 
 /* form
 
@@ -1150,11 +1146,7 @@ Dark AQUA MARINE
 
 NEW BLUE GREEN #65B09C 
 
-DARKER YELLOW #e9f28a*
-
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-/@charset "UTF-8";
+DARKER YELLOW #e9f28a*/@charset "UTF-8";
 @import url ('https://fonts.googleapis.com/css?family=Playfair+Display');
 @import url ('https://fonts.googleapis.com/css?family=Montserrat');
 
@@ -1179,7 +1171,7 @@ html {
     background-color: #FFF;
 }
 
-/*     border: solid 4px pink; 
+/*     border: solid 4px pink; */
 
 .logo {
     float: left;
@@ -1298,6 +1290,7 @@ span {
 
 }
 
+*/
 
 
 
@@ -1361,7 +1354,7 @@ footer:: after {
 */
 
 /* typography h1
-========================
+========================*/
 
 
 h1 {
@@ -1428,7 +1421,7 @@ p {
 */
 
 /* buttons
-========================
+========================*/
 .button {
     font-size: 2em;
     font-family: 'Montserrat', sans-serif;
@@ -1488,7 +1481,7 @@ p {
     color: #000;
 }
 
-/*media queries
+/*media queries*/
 
 
 @media only screen and (min-width: 30rem) {
@@ -1523,6 +1516,25 @@ p {
 /* header
 ========================*/
 
+
+
+header {
+    display: inline-block;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    height: 20vh;  
+    width: 100%;
+    clear: both;
+}
+
+.top-logo {
+    float: clear;
+    padding: 1em;
+    width: 10rem;
+    margin-top: .5em;
+    z-index: 200;
+}
 
 
 /*
@@ -1587,7 +1599,7 @@ p {
 
 
 /* hero
-========================
+========================*/
 
 .home-hero {
     background-color: #9BCCBF;
@@ -1713,7 +1725,18 @@ p {
     color: #65B09C;
 }
 
+/* media queries
+===========================
 
+@media only screen and  (min-width: 60rem) {
+    .home-hero {
+        height: 80vh;
+        padding-top: 8vh;
+     }
+    } 
+
+
+========================*/
 
 .social-media {
     background-color: #65b09c;
@@ -1729,7 +1752,7 @@ p {
 /*     border: solid 3px red;  */
 
 /*trying to figure out better footer and header
-=============================
+=============================*/
 .middle {
     background-color: lightcyan;
     height: 20em;
@@ -1745,24 +1768,13 @@ p {
 
 
 
-/* media queries
-===========================
 
-@media only screen and  (min-width: 60rem) {
-    .home-hero {
-        height: 80vh;
-        padding-top: 8vh;
-     }
-    } 
-
-
-========================
 
 
 
 ++++++++++++++++++++++++++++++++++++++*/
 /*about
-=============================
+=============================*/
 
 .about-me {
     background-color: #D7EBE5;
@@ -1837,7 +1849,7 @@ p {
 
 
 /* testimonials
-========================
+========================*/
 
 .testimonials {
     background-color: #F6FCE4;
@@ -1866,7 +1878,7 @@ p {
     transform: translateX(-50%);
     width: 100vw;
 
-========================
+========================*/
 
 .testimonials h2 {
     top: .3em;
@@ -1905,7 +1917,7 @@ p {
 } 
 
 /* portfolio 
-==========================
+==========================*/
     
 .portfolio {
 	margin: 3em 0 0;
@@ -2012,7 +2024,7 @@ p {
     align-items: center;
     }
 
-========================
+========================*/
 
 
     
@@ -2027,7 +2039,7 @@ p {
 
 /* form
 
-========================
+========================*/  
     
     
 .contact {
@@ -2105,7 +2117,7 @@ input[type=submit] {
     }
 /* footer
 
-========================
+========================*/
 
 
 footer {
@@ -2120,7 +2132,7 @@ footer {
 }
 
 .container {
-    /*margin: 2em;
+    /*margin: 2em;*/
     padding: 2em;
     display: inline-block;
     align-items: center;
@@ -2222,7 +2234,7 @@ footer {
         height: auto;
     }
 }
-
+  */
 
 
 .warning {
