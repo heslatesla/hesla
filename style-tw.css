@@ -275,7 +275,7 @@ p {
 /* buttons
 ========================*/
 .button {
-    font-size: 2em;
+    font-size: 1.15rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     text-decoration: none;
@@ -286,20 +286,14 @@ p {
 }
 
 
-.button-accent {
-    color:#000;
-    border-color: #000;
-}
-
-.button-accent:hover,
-.button-accent:focus {
-    background: #000;
-    color: #FFF;
-}
-
 .button-small {
 	font-size: .7em;
 	font-weight: 700;
+}
+
+.button-accent {
+    color:#000;
+    border-color: #000;
 }
 
 .button-small:hover,
@@ -308,6 +302,14 @@ p {
 	color: #000;
     border: #FFF
 }
+
+
+.button-accent:hover,
+.button-accent:focus {
+    background: #000;
+    color: #FFF;
+}
+
 
 .button-dark {
 	color: #FFF;
@@ -335,7 +337,23 @@ p {
 
 /*media queries*/
 
+@media only screen and (min-width: 60rem) {
+    .button {
+    font-size: 1.5rem;
+     }
+    
+    .button-dark {
+        font-size: 1.6rem;
+     }
+    }
 
+
+
+/*====
+
+
+
+=======
 @media only screen and (min-width: 30rem) {
     .button {
     font-size: 1em;
@@ -346,13 +364,13 @@ p {
      }
     }
 
-@media only screen and (min-width: 60rem) {
+@media only screen and (min-width: 22rem) {
     .button {
-    font-size: 1.5em;
+    font-size: .5em;
      }
     
-        .button-dark {
-        font-size: 1.6em;
+    .button-dark {
+        font-size: .5em;
      }
     }
 
@@ -360,8 +378,7 @@ p {
 
 
 
-
-/*========================*/
+=============*/
 
 
 
